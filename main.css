@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     height: 100vh;
     justify-content: space-between;
-    background-image: url('imagens/fiap.png');
+    background-image: url('fiap.png');
     font-family: 'Nova Mono', monospace;
 }
 
