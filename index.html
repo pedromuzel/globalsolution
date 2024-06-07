@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tide: Menu</title>
+    <link rel="stylesheet" href="assets/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+</head>
+<body class="body2">
+    <header>
+        <h1 class="h1">TIDE: Tecnologia Educativa</h1>
+        <div class="menu-item" onclick="navigateToSection('educacao')">TECNOLOGIA EDUCATIVA</div>
+        <div class="menu-item" onclick="navigateToSection('informativo')">ACESSE JÁ NOSSO CONTEÚDO</div>
+        <a class="botao-registro" href="login.html"><div onclick="navigateToSection('login')">LOGIN</div></a>
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li>
+                    <a onclick="navigateToSection('educacao')">
+                        
+                        <img src="assets/icons/educacao.png" alt="Ícone Tecnologia">
+                        <span>EDUCAÇÃO AZUL</span>
+                        <p>Acesse nosso conteúdo e entenda a importância desta pauta no sistema de educação</p>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="navigateToSection('informativo')">
+                        <img src="assets/icons/problema.png" alt="Ícone Problema">
+                        <span>INFORMATIVO</span>
+                        <p>Entenda as ameaças que os oceanos enfrentam.</p>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="navigateToSection('problema')">
+                        <img src="assets/icons/problema.png" alt="Ícone Problema">
+                        <span>O Problema</span>
+                        <p>Entenda as ameaças que os oceanos enfrentam.</p>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="navigateToSection('tecnologia')">
+                        <img src="assets/icons/tecnologia.png" alt="Ícone Tecnologia">
+                        <span>Tecnologia</span>
+                        <p>Veja as tecnologias que estamos usando.</p>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="navigateToSection('objetivos')">
+                        <img src="assets/icons/obj.png" alt="Ícone Objetivos">
+                        <span>Objetivos</span>
+                        <p>Conheça nossos objetivos principais.</p>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="navigateToSection('publico')">
+                        <img src="assets/icons/pessoas.png" alt="Ícone Público">
+                        <span>Público</span>
+                        <p>Descubra quem será impactado.</p>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="navigateToSection('beneficios')">
+                        <img src="assets/icons/beneficiosss.png" alt="Ícone Benefícios">
+                        <span>Benefícios</span>
+                        <p>Veja os benefícios da nossa solução.</p>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="navigateToSection('diaadia')">
+                        <img src="assets/icons/AJD.png" alt="Ícone Ajuda Diária">
+                        <span>Ajuda no Dia a Dia</span>
+                        <p>Saiba como isso pode ajudar você diariamente.</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+        <section id="educacao">
+            <h2>| EDUCAÇÃO AZUL | ACESSE NOSSO CONTEÚDO |</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div style="text-align: center;">
+                            <h3>CAPITULO 1: CONHECA A TIDE</h3>
+                            <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/cgBXNr4DliA?si=HUVXVE2M1KDv9nlL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                  
+                            <h3>CAPITULO 2: A SUSTENTABILIDADE E A EDUCAÇÃO</h3>
+                            <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/lKt3iTKJ-8E?si=Ocvvuq88dnR2uvBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <section id="informativo">
+            <h2>|INFORMATIVO|</h2>
+            <h2>Informações sobre as ameaças que os oceanos enfrentam.</h2>
+            <div class="slide-content">
+                <div style="text-align: center;">
+                    <img src="assets/imagens/grafico.jpg" alt="Poluição Plástica">
+                    <img src="assets/imagens/grafico.jpg" alt="Poluição Plástica">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="problema">
+                <h2>O Problema que Nossa Solução Irá Resolver</h2>                
+                <div class="problema-item">
+                    <h3>1. Poluição Plástica</h3>
+                    <p>Todos os anos, milhões de toneladas de plástico acabam nos oceanos, formando enormes ilhas de lixo e causando danos irreparáveis à vida marinha. Animais marinhos frequentemente ingerem plásticos ou ficam presos neles, levando à morte por fome, asfixia ou infecções.</p>
+                    <img src="assets/imagens/devestating-shot-of-plastic-waste-in-the-ocean-wa-2023-01-10-02-58-58-utc-scaled.jpg" alt="Poluição Plástica">
+                </div>
+                
+                <div class="problema-item">
+                    <h3>2. Produtos Químicos Tóxicos</h3>
+                    <p>Produtos químicos como pesticidas, metais pesados e poluentes industriais entram nos oceanos através do escoamento das chuvas e atividades humanas. Esses contaminantes se acumulam nos organismos marinhos, entrando na cadeia alimentar e eventualmente afetando os seres humanos.</p>
+                    <img src="assets/imagens/images.jfif" alt="Produtos Químicos Tóxicos">
+                </div>
+                
+                <div class="problema-item">
+                    <h3>3. Esgoto e Nutrientes Excessivos</h3>
+                    <p>O esgoto não tratado e o excesso de nutrientes de fertilizantes agrícolas causam a proliferação de algas nocivas, que consomem o oxigênio da água e criam zonas mortas onde a vida marinha não pode sobreviver. Este fenômeno é conhecido como eutrofização.</p>
+                    <img src="assets/imagens/eutrofizacao.webp" alt="Eutrofização">
+                </div>
+                
+                <div class="problema-item">
+                    <h3>4. Aquecimento Global e Acidificação dos Oceanos</h3>
+                    <p>O aquecimento global está aumentando a temperatura dos oceanos, afetando os habitats marinhos e causando a morte de corais. A absorção de dióxido de carbono pelos oceanos também está causando acidificação, que prejudica organismos marinhos como moluscos e corais, que dependem do carbonato de cálcio para suas conchas e esqueletos.</p>
+                    <img src="assets/imagens/image560x340cropped.jpg" alt="Aquecimento Global e Acidificação">
+                </div>
+        </section>
+
+
+
+        <section id="tecnologia">
+            <h2>Tecnologias Utilizadas</h2>
+            <p>Para criar um site informativo e educacional que visa conscientizar tanto crianças quanto adultos sobre a importância da sustentabilidade dos oceanos, utilizaremos as seguintes tecnologias:</p>
+            
+            <div class="tecnologia-item">
+                <h3>1. Desenvolvimento Web</h3>
+                <p>Usaremos HTML5, CSS3 e JavaScript para construir um site moderno e interativo. Estas tecnologias permitem criar páginas web responsivas e atraentes, que funcionam bem em diferentes dispositivos, incluindo computadores, tablets e smartphones.</p>
+                <img src="assets/imagens/desenvolvimento-web-linguagens.jpg" alt="Desenvolvimento Web">
+            </div>
+            
+            <div class="tecnologia-item">
+                <h3>2. Colaboração com Especialistas</h3>
+                <p>Trabalharemos em estreita colaboração com especialistas em oceanografia e educação ambiental para garantir que o conteúdo do site seja preciso, atualizado e educativo. Isso nos ajudará a criar materiais que sejam cientificamente corretos e relevantes.</p>
+                <img src="assets/imagens/Research-Collaboration.png" alt="Colaboração com Especialistas">
+            </div>
+        </section>
+
+
+
+        <section id="objetivos">
+            <h2>Objetivos do Projeto</h2>
+            <p>Nosso projeto tem como foco principal a criação de um site educacional interativo que visa conscientizar crianças e adultos sobre a importância da sustentabilidade dos oceanos. A seguir, detalhamos os objetivos específicos que pretendemos alcançar:</p>
+           
+            <div class="objetivo-item">
+                <h3>1. Aumentar a Conscientização Ambiental</h3>
+                <p>Nosso principal objetivo é aumentar a conscientização sobre a poluição marinha e seus impactos. Queremos educar o público sobre como suas ações diárias podem afetar os oceanos e a vida marinha, incentivando práticas mais sustentáveis.</p>
+                <img src="assets/imagens/consicentização.jpg" alt="Conscientização Ambiental">
+            </div>
+           
+            <div class="objetivo-item">
+                <h3>2. Promover Práticas Sustentáveis</h3>
+                <p>Incentivar a adoção de práticas sustentáveis, como a redução do uso de plásticos e o descarte adequado de resíduos. Nosso conteúdo gamificado e interativo ajudará a transmitir essas mensagens de maneira eficaz e envolvente.</p>
+                <img src="assets/imagens/natura-rj-8.webp" alt="Práticas Sustentáveis">
+            </div>
+           
+            <div class="objetivo-item">
+                <h3>3. Educar sobre o Impacto das Mudanças Climáticas</h3>
+                <p>Abordaremos como as mudanças climáticas afetam os oceanos, incluindo o aquecimento global e a acidificação dos oceanos. Utilizando recursos de realidade aumentada, os usuários poderão visualizar esses impactos de forma mais tangível.</p>
+                <img src="assets/imagens/mudanças-climáticas.jpg" alt="Impacto das Mudanças Climáticas">
+            </div>
+           
+            <div class="objetivo-item">
+                <h3>4. Envolver a Comunidade Escolar</h3>
+                <p>Trabalharemos em colaboração com escolas para integrar nosso conteúdo ao currículo escolar. Ofereceremos materiais didáticos e atividades interativas que professores poderão utilizar em sala de aula para ensinar sobre sustentabilidade marinha.</p>
+                <img src="assets/imagens/comunidade-escolar.png" alt="Envolver a Comunidade Escolar">
+            </div>
+           
+            <div class="objetivo-item">
+                <h3>5. Facilitar o Acesso a Informações Confiáveis</h3>
+                <p>Forneceremos informações precisas e atualizadas, desenvolvidas em colaboração com especialistas em oceanografia e meio ambiente. Isso garantirá que nosso site seja uma fonte confiável de conhecimento para estudantes, educadores e o público em geral.</p>
+                <img src="assets/imagens/netquest1.webp" alt="Informações Confiáveis">
+            </div>
+        </section>
+
+
+
+        <section id="publico">
+            <h2>Público Impactado</h2>
+            <p>Nosso projeto é destinado a um amplo público, com o objetivo de educar e conscientizar diferentes faixas etárias sobre a importância da sustentabilidade dos oceanos. A seguir, detalhamos os principais grupos que serão impactados:</p>
+           
+            <div class="publico-item">
+                <h3>1. Crianças e Jovens Estudantes</h3>
+                <p>Queremos alcançar crianças e jovens em idade escolar, proporcionando material educativo interativo e gamificado que facilite o aprendizado sobre a preservação dos oceanos. Utilizaremos recursos visuais e atividades práticas para manter o engajamento.</p>
+                <img src="assets/imagens/yannis-h-uaPaEM7MiQQ-unsplash.jpg" alt="Crianças e Jovens Estudantes">
+            </div>
+           
+            <div class="publico-item">
+                <h3>2. Educadores e Professores</h3>
+                <p>Os educadores serão nossos parceiros na disseminação do conhecimento. Ofereceremos suporte didático e ferramentas pedagógicas para que possam integrar o conteúdo sobre sustentabilidade dos oceanos em suas aulas de forma eficaz.</p>
+                <img src="assets/imagens/iStock-1328488607.jpg" alt="Educadores e Professores">
+            </div>
+           
+            <div class="publico-item">
+                <h3>3. Famílias e Comunidade</h3>
+                <p>O envolvimento das famílias e da comunidade é crucial para promover práticas sustentáveis. Nosso site fornecerá informações e dicas práticas para que todos possam contribuir para a preservação dos oceanos no dia a dia.</p>
+                <img src="assets/imagens/helena-lopes-PGnqT0rXWLs-unsplash.jpg" alt="Famílias e Comunidade">
+            </div>
+           
+            <div class="publico-item">
+                <h3>4. Entusiastas e Profissionais da Área Ambiental</h3>
+                <p>Além do público em geral, também queremos alcançar entusiastas e profissionais da área ambiental, oferecendo conteúdos avançados e dados científicos que possam ser utilizados em pesquisas e projetos voltados para a sustentabilidade marinha.</p>
+                <img src="assets/imagens/Profissoes-na-area-ambiental-conheca-aqui-800x482.webp" alt="Entusiastas e Profissionais da Área Ambiental">
+            </div>
+        </section>
+
+
+
+
+        <section id="beneficios">
+            <h2>Benefícios da Solução</h2>
+            <p>Nosso projeto oferece diversos benefícios que contribuem significativamente para a preservação dos oceanos e para a educação ambiental de crianças e adultos. A seguir, detalhamos alguns dos principais benefícios:</p>
+           
+            <div class="beneficio-item">
+                <h3>1. Educação Ambiental Interativa</h3>
+                <p>Utilizando tecnologia avançada, como realidade aumentada, nosso aplicativo oferece uma experiência de aprendizado imersiva e envolvente, facilitando a compreensão dos problemas ambientais e das práticas sustentáveis.</p>
+                <img src="assets/imagens/educação.jpeg" alt="Educação Ambiental Interativa">
+            </div>
+           
+            <div class="beneficio-item">
+                <h3>2. Conscientização e Engajamento</h3>
+                <p>Ao apresentar informações de forma gamificada, nosso projeto incentiva o engajamento e a participação ativa dos usuários, promovendo uma maior conscientização sobre a importância da preservação dos oceanos.</p>
+                <img src="assets/imagens/engajamento-o-que-e-qual-sua-importancia-e-como-melhorar-o-seu-20230302135927.jpg-1.jpg" alt="Conscientização e Engajamento">
+            </div>
+           
+            <div class="beneficio-item">
+                <h3>3. Recursos Educacionais para Professores</h3>
+                <p>Oferecemos materiais didáticos e ferramentas pedagógicas que auxiliam os professores a integrar o conteúdo sobre sustentabilidade dos oceanos em suas aulas, tornando o aprendizado mais eficaz e impactante.</p>
+                <img src="assets/imagens/recursos.png" alt="Recursos Educacionais para Professores">
+            </div>
+           
+            <div class="beneficio-item">
+                <h3>4. Acesso a Informações Científicas</h3>
+                <p>Fornecemos acesso a dados científicos e informações atualizadas sobre a situação dos oceanos, permitindo que entusiastas e profissionais da área ambiental utilizem esse conhecimento em suas pesquisas e iniciativas.</p>
+                <img src="assets/imagens/cdc-IFpQtennlj8-unsplash.jpg" alt="Acesso a Informações Científicas">
+            </div>
+        </section>
+
+
+
+
+        <section id="diaadia">
+            <h2>Como essa Solução Pode Ajudar no Dia a Dia</h2>
+            <p>Nosso aplicativo educacional foi projetado para integrar práticas sustentáveis no cotidiano de seus usuários, oferecendo uma série de benefícios práticos e educativos. A seguir, destacamos como essa solução pode ser útil no dia a dia:</p>
+           
+            <div class="diaadia-item">
+                <h3>1. Informações Práticas e Acessíveis</h3>
+                <p>O aplicativo fornece informações atualizadas e de fácil compreensão sobre como reduzir a poluição marinha, permitindo que os usuários adotem práticas mais sustentáveis em suas rotinas diárias.</p>
+                <img src="assets/imagens/acessibilidade-em-eventos-imagem-de-destaque-2.png" alt="Informações Práticas e Acessíveis">
+            </div>
+           
+            <div class="diaadia-item">
+                <h3>2. Dicas de Sustentabilidade</h3>
+                <p>Oferecemos dicas práticas e ações diárias que cada pessoa pode adotar para contribuir para a preservação dos oceanos, como a redução do uso de plásticos e o descarte adequado de resíduos.</p>
+                <img src="assets/imagens/dicas.jpg" alt="Dicas de Sustentabilidade">
+            </div>
+           
+            <div class="diaadia-item">
+                <h3>3. Atividades Educativas para Crianças</h3>
+                <p>O aplicativo inclui atividades interativas e jogos educativos que ensinam as crianças sobre a importância da preservação dos oceanos, incentivando-as a se tornarem embaixadoras ambientais desde cedo.</p>
+                <img src="assets/imagens/artem-kniaz-DqgMHzeio7g-unsplash.jpg" alt="Atividades Educativas para Crianças">
+            </div>
+           
+            <div class="diaadia-item">
+                <h3>4. Engajamento da Comunidade</h3>
+                <p>Promovemos a criação de comunidades virtuais onde os usuários podem compartilhar suas experiências, dicas e iniciativas de sustentabilidade, fortalecendo o engajamento e a colaboração entre os participantes.</p>
+                <img src="assets/imagens/chris-montgomery-smgTvepind4-unsplash.jpg" alt="Engajamento da Comunidade">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2024 Tide: Educacionando sobre Sustentabilidade dos Oceanos</p>
+    </footer>
+
+<script src="script.js"></script>
+<script src="login.js"></script>
+
+</body>
+</html>

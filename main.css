@@ -1,0 +1,495 @@
+body {
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    background-image: url('imagens/fiap.png');
+    font-family: 'Nova Mono', monospace;
+}
+
+.header, .menu-item, .botao-registro, .main, .footer {
+    font-family: 'Nova Mono', monospace;
+}
+
+
+.videos{
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+
+header {
+    background-color: #13587315;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+nav ul li {
+    flex: 1 1 45%;
+    background-color: #135873;
+    border-radius: 7px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li:hover {
+    transform: scale(1.05);
+    background-color: rgb(18, 201, 204);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    cursor: pointer;
+}
+
+nav ul li a img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul li a span {
+    display: block;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+nav ul li a p {
+    font-size: 1em;
+}
+
+section {
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #a0a0a0;
+    border-radius: 0px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    transition: 0.3s; background-color: 0.3s; 
+}
+
+section:hover {
+    transform: scale(1.02);
+    background-color: #01202b;
+}
+
+section#problema {
+    padding: 20px;
+}
+
+section#problema h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.problema-item {
+    margin-bottom: 40px;
+}
+
+.problema-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.problema-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: white;
+}
+
+.problema-item img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 300px; /* Adicionado para limitar a altura máxima */
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section#tecnologia {
+    padding: 20px;
+}
+
+section#tecnologia h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.tecnologia-item {
+    margin-bottom: 40px;
+}
+
+.tecnologia-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.tecnologia-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: white;
+}
+
+.tecnologia-item img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 300px; /* Adicionado para limitar a altura máxima */
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section#objetivos {
+    padding: 20px;
+}
+
+section#objetivos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.objetivo-item {
+    margin-bottom: 40px;
+}
+
+.objetivo-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.objetivo-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: white;
+}
+
+.objetivo-item img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 300px; /* Adicionado para limitar a altura máxima */
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section#publico {
+    padding: 20px;
+}
+
+section#publico h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.publico-item {
+    margin-bottom: 40px;
+}
+
+.publico-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.publico-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: white;
+}
+
+.publico-item img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 300px; /* Adicionado para limitar a altura máxima */
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section#beneficios {
+    padding: 20px;
+}
+
+section#beneficios h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.beneficio-item {
+    margin-bottom: 40px;
+}
+
+.beneficio-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.beneficio-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: white;
+}
+
+.beneficio-item img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 300px; /* Adicionado para limitar a altura máxima */
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section#educacao {
+    padding: 20px;
+}
+
+section#educacao h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.educacao-item {
+    margin-bottom: 40px;
+}
+
+.educacao-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.educacao-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: white;
+}
+
+.educacao-item img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 300px; /* Adicionado para limitar a altura máxima */
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section#diaadia {
+    padding: 20px;
+}
+
+section#diaadia h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.diaadia-item {
+    margin-bottom: 40px;
+}
+
+.diaadia-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.diaadia-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: white;
+}
+
+.diaadia-item img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 300px; /* Adicionado para limitar a altura máxima */
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section#informativo {
+    padding: 20px;
+}
+
+section#informativo h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.informativo-item {
+    margin-bottom: 40px;
+}
+
+.informativo-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.informativo-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: white;
+}
+
+.informativo-item img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 300px; /* Adicionado para limitar a altura máxima */
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+    background-color: #135873b4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.menu-item {
+    background-color: #13587300;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    transition: 0.2s; color: 0.3s;
+}
+
+.menu-item:hover{
+    transform: scale(1.02);
+    color: rgb(0, 251, 255);
+}
+
+.botao-registro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff5b;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    transition: 0.2s; background-color: 0.3s;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.botao-registro:hover{
+    transform: scale(1.03);
+    background-color: rgb(18, 201, 204);
+}
+
+.h1{
+    font-size: 50px;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    nav ul li a span {
+        font-size: 1.2em;
+    }
+
+    nav ul li a p {
+        font-size: 0.9em;
+    }
+}
